@@ -1,6 +1,5 @@
 import "./App.css";
 import Weather from "./Weather";
-import { Button } from "react-bootstrap";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
