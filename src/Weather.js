@@ -6,6 +6,13 @@ import ReactAnimatedWeather from "react-animated-weather";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Weather() {
+  let Weather = {
+    city: "Manila",
+    day: "Sunday ",
+    time: "12:00",
+    description: "Sunny",
+    temperature: 25,
+  };
   return (
     <div>
       <form claswsName="Weather">
@@ -15,17 +22,20 @@ export default function Weather() {
           autoFocus="off"
           className="inputcity"
         />
-        <Button variant="outline-primary" className="btnprimary">
+        <Button variant="primary" className="btnprimary">
           Search
         </Button>{" "}
-        <Button variant="outline-success" className="currentbtn">
+        <Button variant="success" className="currentbtn">
           Curent
         </Button>{" "}
       </form>
-      <h1>Jerusalem</h1>
+
+      <h1>{Weather.city}</h1>
       <ul>
-        <li>Sunday 12:00</li>
-        <li>Sunny</li>
+        <li>
+          {Weather.day} {Weather.time}
+        </li>
+        <li>{Weather.description}</li>
       </ul>
       <div className="row">
         <div className="col-6">
@@ -38,7 +48,7 @@ export default function Weather() {
             />
 
             <div className="float-left">
-              <strong> 19</strong>
+              <strong> {Weather.temperature}</strong>
               <span className="units">
                 <a href="/"> °C </a> | <a href="/"> °F</a>
               </span>

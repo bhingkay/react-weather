@@ -27,7 +27,7 @@ img {
 }
 
 strong {
-  color: black;
+  color: brown;
   font-size: 50px;
   line-height: 1;
   font-weight: 400;
@@ -51,4 +51,12 @@ strong {
 h6 {
   color: brown;
   font-weight: bolder;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 30px;
+  color: brown;
+  text-align: left;
+  margin-left: 10px;
 }
