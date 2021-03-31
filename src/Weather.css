@@ -1,14 +1,20 @@
-.Weather input {
+.inputcity {
   padding: 5px 10px;
-  width: 250px;
-  margin-top: 10px;
-  border-radius: 10px;
+  width: 280px;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-left: 10px;
 }
 
-.Weather .searchbtn {
-  padding: 5px 10px;
-  width: 250px;
-  margin-top: 10px;
+.btnprimary {
+  padding: 2px 5px;
+  width: 100px;
   border-radius: 10px;
-  background-color: red;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+.currentbtn {
+  font-weight: bolder;
+  width: 100px;
+  margin-top: -5px;
 }
