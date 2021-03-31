@@ -9,11 +9,6 @@ function App() {
     <div className="App">
       <div className="WeatherApp">
         <Weather />
-        <h1>Jerusalem</h1>
-        <ul>
-          <li>Sunday 12:00</li>
-          <li>Sunny</li>
-        </ul>
       </div>
     </div>
   );
