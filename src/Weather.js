@@ -26,7 +26,7 @@ export default function Weather() {
           Search
         </Button>{" "}
         <Button variant="success" className="currentbtn">
-          Curent
+          Current
         </Button>{" "}
       </form>
 
