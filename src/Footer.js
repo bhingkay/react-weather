@@ -3,7 +3,10 @@ import React from "react";
 export default function Footer() {
   return (
     <small className="footer">
-      <a href="">Open source code by </a> Aljeve Rudenas
+      <a href="https://github.com/bhingkay/react-weather" target="_blank">
+        Open source code by{" "}
+      </a>{" "}
+      Aljeve Rudenas
     </small>
   );
 }
