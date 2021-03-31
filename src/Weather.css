@@ -17,6 +17,7 @@
   font-weight: bolder;
   width: 100px;
   margin-top: -5px;
+  border-radius: 10px;
 }
 img {
   margin-right: 5px;
@@ -30,10 +31,24 @@ strong {
   font-size: 50px;
   line-height: 1;
   font-weight: 400;
+  margin-left: 20px;
 }
 
 .units {
   position: relative;
   font-size: 20px;
   top: -20px;
+}
+
+.forecast {
+  margin-top: 20px;
+}
+
+.tuesimage {
+  margin-top: 15px;
+}
+
+h6 {
+  color: brown;
+  font-weight: bolder;
 }

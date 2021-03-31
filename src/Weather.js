@@ -1,6 +1,7 @@
 import React from "react";
 import "./Weather.css";
 import { Button } from "react-bootstrap";
+import ReactAnimatedWeather from "react-animated-weather";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -29,11 +30,13 @@ export default function Weather() {
       <div className="row">
         <div className="col-6">
           <div className="d-flex weather-temperature">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-              alt="Sunny"
-              className="float-left"
+            <ReactAnimatedWeather
+              icon="CLEAR_DAY"
+              color="white"
+              size={60}
+              animate={true}
             />
+
             <div className="float-left">
               <strong> 19</strong>
               <span className="units">
@@ -47,6 +50,66 @@ export default function Weather() {
             <li> Humidity: 60%</li>
             <li> Wind: 6km/h</li>
           </ul>
+        </div>
+      </div>
+      <div className="forecast">
+        <div className="row">
+          <div className="col-2">
+            <h6>Monday</h6>
+            <ReactAnimatedWeather
+              icon="PARTLY_CLOUDY_DAY"
+              color="white"
+              size={60}
+              animate={true}
+            />
+          </div>
+          <div className="col-2">
+            <h6>Tuesday</h6>
+            <div className="tuesimage">
+              <ReactAnimatedWeather
+                icon="RAIN"
+                color="white"
+                size={60}
+                animate={true}
+              />{" "}
+            </div>
+          </div>
+          <div className="col-2">
+            <h6>Wednesday</h6>
+            <ReactAnimatedWeather
+              icon="SNOW"
+              color="white"
+              size={60}
+              animate={true}
+            />
+          </div>
+          <div className="col-2">
+            <h6>Thursday</h6>
+            <ReactAnimatedWeather
+              icon="CLEAR_DAY"
+              color="white"
+              size={60}
+              animate={true}
+            />
+          </div>
+          <div className="col-2">
+            <h6>Friday</h6>
+            <ReactAnimatedWeather
+              icon="PARTLY_CLOUDY_DAY"
+              color="white"
+              size={60}
+              animate={true}
+            />
+          </div>
+          <div className="col-2">
+            <h6>Saturday</h6>
+            <ReactAnimatedWeather
+              icon="CLOUDY"
+              color="white"
+              size={60}
+              animate={true}
+            />
+          </div>
         </div>
       </div>
     </div>
