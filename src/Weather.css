@@ -1,0 +1,13 @@
+.Weather input {
+  padding: 5px 10px;
+  width: 250px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.Weather .searchbtn {
+  padding: 5px 10px;
+  width: 250px;
+  margin-top: 10px;
+  border-radius: 10px;
+}

@@ -4,8 +4,10 @@ import Weather from "./Weather";
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      <Weather city="Paris" />
+      <div className="WeatherApp">
+        <h1>Weather React</h1>
+        <Weather />
+      </div>
     </div>
   );
 }
